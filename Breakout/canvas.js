@@ -163,7 +163,8 @@ function DesenhaMenu() {
     
     oCtx.font = "bold 16px Arial";
     if(isMenu) {
-        oCtx.fillText("Pressione [ESPAÇO] para começar ou pausar o jogo.", oCanvas.width/2, oCanvas.height - 170);
+        oCtx.fillText("Use o [MOUSE] para controlar a base.", oCanvas.width/2, oCanvas.height - 170);
+        oCtx.fillText("Pressione [ESPAÇO] para começar ou pausar o jogo.", oCanvas.width/2, oCanvas.height - 150);
     }
     if (isGameOver) {
         oCtx.fillText("Pressione [ESPAÇO] para começar uma nova partida.", oCanvas.width/2, oCanvas.height - 170);
