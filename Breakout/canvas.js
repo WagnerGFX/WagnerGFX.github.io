@@ -50,6 +50,7 @@ function KeyDown(e) {
 function KeyUp(e) {
     if(e.keyCode == 32) {
         keySpace = false;
+        e.preventDefault();
     }
 }
 
