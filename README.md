@@ -1,7 +1,7 @@
-# GFX5000i.github.io
+# WagnerGFX
 Reposítório para projetos compilados de jogos web para serem acessados diretamente pelo navegador.
 
-## Breakout
+## [Breakout](/Breakout)
 Versão remodelada do Breakout feito pela Mozilla como tutorial de canvas.
 
 ## Devorando Letras
